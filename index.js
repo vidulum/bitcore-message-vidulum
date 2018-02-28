@@ -1,4 +1,4 @@
-var bitcore = require('bitcore-lib-zen');
+var bitcore = require('bitcore-lib-snowgem');
 bitcore.Message = require('./lib/message');
 
 module.exports = bitcore.Message;
