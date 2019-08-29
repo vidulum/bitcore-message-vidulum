@@ -4,7 +4,7 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var bitcore = require('bitcore-lib-snowgem');
+var bitcore = require('bitcore-lib-vidulum');
 var Address = bitcore.Address;
 var Signature = bitcore.crypto.Signature;
 var Message = require('../');

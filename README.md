@@ -6,25 +6,25 @@
 [![Build Status](https://img.shields.io/travis/bitpay/bitcore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-message)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-message?branch=master)
 
-bitcore-message-snowgem adds support for verifying and signing snowgem messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-message-vidulum adds support for verifying and signing vidulum messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-message-snowgem
+npm install bitcore-message-vidulum
 ```
 
 ```sh
-bower install bitcore-message-snowgem
+bower install bitcore-message-vidulum
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-snowgem');
-var Message = require('bitcore-message-snowgem');
+var bitcore = require('bitcore-lib-vidulum');
+var Message = require('bitcore-message-vidulum');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
